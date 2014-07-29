@@ -1,3 +1,6 @@
+# Configure file
+configure
+
 # Compiled Object files
 *.slo
 *.lo
