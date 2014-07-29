@@ -1,0 +1,7 @@
+Printing analysis 'Function Fitness for Spawning Analysis':
+Printing info for 5 functions
+The function refsGlobal() is Unknown
+The function opaque() is Unknown
+The function callsUnfit() is Unknown
+The function pointerArgs() is Unknown
+The function noneOfTheAbove() is Functional

@@ -1,0 +1,33 @@
+#ifndef HYDRA_FUN_ARG_INFO_H
+#define HYDRA_FUN_ARG_INFO_H
+
+#include <map>
+#include "llvm/Pass.h"
+
+// llvm forward declares
+namespace llvm {
+  class Value;
+  class CallInst;
+}
+
+namespace hydra {
+  class FunArgInfo : public llvm::FunctionPass {
+  public:
+    static char ID;
+    FunArgInfo() : FunctionPass(ID) {}
+    virtual void getAnalysisUsage(llvm::AnalysisUsage &Info) const;
+    virtual bool runOnFunction(llvm::Function &F);
+    inline llvm::Value *getJoinPoint(llvm::CallInst *CI);
+  private:
+    void findAndAddJoinPoint(llvm::CallInst *CI);
+  private:
+    std::map<llvm::CallInst *, llvm::Value *> joinPoints;
+  };
+}
+
+llvm::Value *hydra::FunArgInfo::getJoinPoint(llvm::CallInst *CI) {
+  auto it = joinPoints.find(CI);
+  return (it != joinPoints.end() ? it->second : nullptr);
+}
+
+#endif

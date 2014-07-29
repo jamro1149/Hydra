@@ -1,0 +1,113 @@
+Printing analysis 'Function Argument Analysis':
+Printing joinpoints of 22 CallInsts
+
+  %1 = call i32 @do_work()
+has join point(s) at
+  ret i32 0
+
+
+  %1 = call i32 @do_work()
+has join point(s) at
+  ret i32 0
+
+
+  %2 = call i32 @ffg()
+has join point(s) at
+  ret i32 0
+
+
+  %1 = call i32 @fff()
+has join point(s) at
+  ret i32 0
+
+
+  %1 = call i32 @do_work()
+has join point(s) at
+  ret i32 0
+
+
+  %1 = call i32 @do_work()
+has join point(s) at
+  ret i32 0
+
+
+  %2 = call i32 @fgg()
+has join point(s) at
+  ret i32 0
+
+
+  %1 = call i32 @fgf()
+has join point(s) at
+  ret i32 0
+
+
+  %2 = call i32 @fg()
+has join point(s) at
+  ret i32 0
+
+
+  %1 = call i32 @ff()
+has join point(s) at
+  ret i32 0
+
+
+  %1 = call i32 @do_work()
+has join point(s) at
+  ret i32 0
+
+
+  %1 = call i32 @do_work()
+has join point(s) at
+  ret i32 0
+
+
+  %2 = call i32 @gfg()
+has join point(s) at
+  ret i32 0
+
+
+  %1 = call i32 @gff()
+has join point(s) at
+  ret i32 0
+
+
+  %1 = call i32 @do_work()
+has join point(s) at
+  ret i32 0
+
+
+  %1 = call i32 @do_work()
+has join point(s) at
+  ret i32 0
+
+
+  %2 = call i32 @ggg()
+has join point(s) at
+  ret i32 0
+
+
+  %1 = call i32 @ggf()
+has join point(s) at
+  ret i32 0
+
+
+  %2 = call i32 @gg()
+has join point(s) at
+  ret i32 0
+
+
+  %1 = call i32 @gf()
+has join point(s) at
+  ret i32 0
+
+
+  %2 = call i32 @g()
+has join point(s) at
+  ret i32 0
+
+
+  %1 = call i32 @f()
+has join point(s) at
+  ret i32 0
+
+

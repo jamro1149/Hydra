@@ -1,0 +1,12 @@
+Printing analysis 'Decide which functions to spawn':
+The following function(s) should be spawned:
+
+spawn_me()
+
+They should be spawned and synced here:
+
+Spawn:	  %res = call i32 @spawn_me()
+Sync:	  %useRes1 = add i32 %res, %res
+	  %useRes2 = sub i32 %res, 4
+	
+

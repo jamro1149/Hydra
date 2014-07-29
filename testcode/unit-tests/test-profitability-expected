@@ -1,0 +1,50 @@
+Printing analysis 'Profitability of Function Spawning Analysis':
+Printing stats of 6 functions
+
+Function iLeave has:
+10001 IR instructions
+10001 IR instructions which emit code
+0 memory accesses
+10001 totalCost
+is spawnable
+
+Function jLeave has:
+11 IR instructions
+11 IR instructions which emit code
+0 memory accesses
+11 totalCost
+is spawnable
+
+Function gLeave has:
+11 IR instructions
+11 IR instructions which emit code
+0 memory accesses
+11 totalCost
+is spawnable
+
+Function hSpawn has:
+10001 IR instructions
+10001 IR instructions which emit code
+0 memory accesses
+10001 totalCost
+is spawnable
+
+Function main has:
+6 IR instructions
+6 IR instructions which emit code
+0 memory accesses
+iLeave() is called 1 time
+jLeave() is called 1 time
+gLeave() is called 1 time
+hSpawn() is called 1 time
+fSpawn() is called 1 time
+30031 totalCost
+is spawnable
+
+Function fSpawn has:
+10001 IR instructions
+10001 IR instructions which emit code
+0 memory accesses
+10001 totalCost
+is spawnable
+
