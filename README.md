@@ -1,6 +1,6 @@
 # Hydra
 
-Most computer programs are executing sequentially. This project, Hydra, designed and implemented automatic parallelisation of executable programs, a problem considered one of the ``holy grails'' in compiler research. Hydra inspects executable programs and identifies functions that can be parallelised, while assessing the potential gains. Using a cross-platform pool of processes, it then parallelises candidate functions and issues new compiled code that can be executed on multiple core or multiple CPU machines. Hydra achieves a 6.33$\times$ speedup of the classical $n$-body simulation problem when using a 48-core machine, without any user assistance. The project is also available online as open source.
+Most computer programs are executing sequentially. This project, Hydra, designed and implemented automatic parallelisation of executable programs, a problem considered one of the "holy grails" in compiler research. Hydra inspects executable programs and identifies functions that can be parallelised, while assessing the potential gains. Using a cross-platform pool of processes, it then parallelises candidate functions and issues new compiled code that can be executed on multiple core or multiple CPU machines. Hydra achieves a 6.33X speedup of the classical $n$-body simulation problem when using a 48-core machine, without any user assistance. The project is also available online as open source.
 
 ## How to Compile and Run Hydra:
 
